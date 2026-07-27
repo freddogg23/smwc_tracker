@@ -1,10 +1,8 @@
-# Setup Guide
+# GitHub Setup
 
-## 1. Upload this project to GitHub
+## 1. Upload this package
 
-Upload the **contents** of this folder to the root of your repository.
-
-Do not upload the ZIP file itself. GitHub needs to see:
+Extract the ZIP, then upload the **contents** to the root of your existing GitHub repository. The repository should show:
 
 ```text
 .github/
@@ -13,68 +11,70 @@ data/
 scripts/
 README.md
 SETUP.md
+CHANGELOG.md
 ```
 
-## 2. Run the updater once
+Do not upload the ZIP itself as the repository content.
 
-In GitHub:
+## 2. Commit the files
 
-1. Click **Actions**.
-2. Click **Update SMWCentral Catalog**.
-3. Click **Run workflow**.
-4. Wait for the green check mark.
+Use a commit message such as:
 
-## 3. Build the workbook
+```text
+Add incremental refresh and Random Hack Finder
+```
 
-On your PC:
+## 3. Run GitHub Actions once
 
-1. Download/clone the repository.
+Open:
+
+```text
+Actions → Update SMWCentral Catalog → Run workflow
+```
+
+Wait for a green check mark. The workflow maintains the full CSV/JSON and creates numbered delta files under `data/deltas/` whenever the catalog changes.
+
+## 4. Build the final macro-enabled workbook
+
+On your Windows PC:
+
+1. Download or clone the repository.
 2. Open the `community` folder.
 3. Close every Excel window.
 4. Double-click `BUILD_COMMUNITY_TRACKER.bat`.
-5. When prompted, enter your repo as `owner/repository`.
-
-Example:
+5. Enter your repository as `owner/repository`, for example:
 
 ```text
-FredDOGG23/smwc_tracker
+freddogg23/smwc_tracker
 ```
 
 The builder creates:
 
 ```text
-community/SMW_ROM_Hack_Tracker_Community.xlsm
+SMW_ROM_Hack_Tracker_Community.xlsm
 ```
 
-## 4. Test the workbook
-
-Open the generated `.xlsm` and test:
-
-- Only Dashboard, Tracker, and Hack Database are visible.
-- Refresh Hacks works.
-- Selecting a hack fills the Tracker row.
-- Rating dropdown contains 1–10.
-- Hours dropdown reaches 1000 Hours.
-- Minutes and Seconds reach 59.
-- Hack Database links display as Open Page and Download.
-- Custom hacks survive a refresh.
-
-## 5. Publish a Release
-
-Use GitHub Releases to share the generated `.xlsm`.
-
-Suggested release note:
+If VBA import is blocked, enable this Excel option temporarily:
 
 ```text
-SMW ROM Hack Tracker — Community Edition
-
-Requirements:
-- Microsoft Excel desktop for Windows
-- Internet connection when clicking Refresh Hacks
-
-After downloading:
-1. Right-click the XLSM file.
-2. Click Properties.
-3. Check Unblock.
-4. Open the workbook in Excel.
+File → Options → Trust Center → Trust Center Settings → Macro Settings
+→ Trust access to the VBA project object model
 ```
+
+## 5. Test before publishing
+
+Verify:
+
+- Dashboard, Tracker, Hack Database, and Hack Finder are visible.
+- Support sheets are not visible in Excel's normal Unhide dialog.
+- Refresh Hacks reports the catalog is current after a fresh build.
+- Difficulty, Type, and Rating filters appear on Hack Finder.
+- Random Hack selects a matching hack.
+- Tracker and Hack Finder pull the SMWCentral Rating value when available.
+- Custom hacks remain after Refresh Hacks.
+
+## 6. Publish a GitHub Release
+
+Create a release such as `v1.2.0`, attach the generated `.xlsm`, and publish it. Share the release page in Discord.
+
+Users may need to right-click the downloaded `.xlsm`, choose **Properties**, and select **Unblock** before Excel allows its macros to run.

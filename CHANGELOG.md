@@ -1,13 +1,10 @@
 # Changelog
 
-## v1.0.0
+## v1.2.0 — Incremental Refresh + Random Finder
 
-Initial repository generated from the uploaded community spreadsheet.
-
-Includes:
-- GitHub Actions catalog updater
-- Standard-library Python SMWCentral scraper
-- Current official catalog data extracted from the workbook
-- Excel VBA Refresh Hacks system
-- Add Custom Hack support
-- Windows builder for creating the final `.xlsm`
+- Combined incremental catalog refresh with the Random Hack Finder.
+- Added Difficulty, Type, and SMWCentral Rating filters.
+- Added Random Hack button.
+- Added SMWCentral Rating column support on catalog and tracker sheets.
+- Preserved full-catalog recovery refresh.
+- Builder now upgrades the workbook, installs all buttons, and Very Hides support sheets.

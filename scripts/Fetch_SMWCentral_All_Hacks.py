@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Update the SMW ROM Hack Tracker public catalog from SMWCentral.
+"""Update the SMWCentral catalog and publish incremental delta files.
 
-Writes:
-- data/SMWCentral_All_Moderated_Hacks.csv
-- data/SMWCentral_All_Moderated_Hacks.json
-- data/version.json
-
-Uses only Python's standard library and does not download ROMs.
+The GitHub runner still checks the complete moderated catalog so it can detect
+all additions, metadata updates, and removals. Downloaded Excel workbooks do
+NOT download the whole catalog on each refresh. They download only version.json
+and any missing data/deltas/########.csv files.
 """
 from __future__ import annotations
 
@@ -44,7 +42,10 @@ HEADERS = [
     "SMWC ID",
     "SMWCentral Page URL",
     "Direct Download URL",
+    "SMWCentral Rating",
 ]
+DELTA_HEADERS = ["Operation", *HEADERS]
+
 
 def preferred_text(value: Any) -> str:
     if value is None:
@@ -58,10 +59,12 @@ def preferred_text(value: Any) -> str:
                 return str(candidate).strip()
     return str(value).strip()
 
+
 def joined(value: Any) -> str:
     if isinstance(value, list):
         return ", ".join(filter(None, (preferred_text(item) for item in value)))
     return preferred_text(value)
+
 
 def type_text(value: Any) -> str:
     values = value if isinstance(value, list) else re.split(r"[,;]", str(value or ""))
@@ -85,6 +88,7 @@ def type_text(value: Any) -> str:
             result.append(display)
     return ", ".join(result)
 
+
 def normalize_url(value: Any) -> str:
     url = str(value or "").strip()
     if url.startswith("//"):
@@ -93,12 +97,59 @@ def normalize_url(value: Any) -> str:
         return "https://www.smwcentral.net" + url
     return url
 
+
+def clean_rating(value: Any) -> str:
+    """Return a compact rating value if the API exposes one."""
+    if value is None:
+        return ""
+    if isinstance(value, dict):
+        for key in ("average", "avg", "value", "rating", "score", "stars"):
+            if key in value and value[key] not in (None, ""):
+                return clean_rating(value[key])
+        return ""
+    if isinstance(value, (int, float)):
+        return f"{float(value):.2f}".rstrip("0").rstrip(".")
+    text = str(value).strip()
+    if not text:
+        return ""
+    match = re.search(r"\d+(?:\.\d+)?", text)
+    return match.group(0) if match else text
+
+
+def extract_rating(hack: dict[str, Any]) -> str:
+    containers = [
+        hack,
+        hack.get("raw_fields") or {},
+        hack.get("fields") or {},
+        hack.get("stats") or {},
+        hack.get("metadata") or {},
+    ]
+    for container in containers:
+        if not isinstance(container, dict):
+            continue
+        for key in (
+            "rating",
+            "ratings",
+            "rating_average",
+            "rating_avg",
+            "average_rating",
+            "avg_rating",
+            "score",
+            "stars",
+        ):
+            if key in container:
+                rating = clean_rating(container.get(key))
+                if rating:
+                    return rating
+    return ""
+
+
 def fetch_json(page: int) -> dict[str, Any]:
     query = urlencode({"a": "getsectionlist", "s": "smwhacks", "n": page, "u": "0"})
     request = Request(
         f"{API_URL}?{query}",
         headers={
-            "User-Agent": "SMW-Hack-Tracker-Catalog-Updater/1.0",
+            "User-Agent": "SMW-Hack-Tracker-Catalog-Updater/2.0",
             "Accept": "application/json,text/plain,*/*",
             "Referer": "https://www.smwcentral.net/?p=section&s=smwhacks",
         },
@@ -108,11 +159,12 @@ def fetch_json(page: int) -> dict[str, Any]:
         try:
             with urlopen(request, timeout=60) as response:
                 return json.loads(response.read().decode("utf-8"))
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001
             last_error = exc
             if attempt < 5:
-                time.sleep(min(120, 2 ** attempt))
+                time.sleep(min(120, 2**attempt))
     raise RuntimeError(f"Page {page} could not be retrieved: {last_error}") from last_error
+
 
 def build_rows() -> list[dict[str, Any]]:
     rows_by_id: dict[str, dict[str, Any]] = {}
@@ -134,7 +186,6 @@ def build_rows() -> list[dict[str, Any]]:
             raw = hack.get("raw_fields") or {}
             length_match = re.search(r"-?\d+", str(raw.get("length", hack.get("length", 0))))
             diff_raw = joined(raw.get("difficulty", hack.get("difficulty")))
-
             timestamp = hack.get("time")
             try:
                 added_date = datetime.fromtimestamp(int(timestamp)).strftime("%Y-%m-%d") if timestamp else ""
@@ -155,6 +206,7 @@ def build_rows() -> list[dict[str, Any]]:
                 "SMWC ID": hack_id,
                 "SMWCentral Page URL": DETAIL_URL.format(id=hack_id),
                 "Direct Download URL": normalize_url(hack.get("download_url")),
+                "SMWCentral Rating": extract_rating(hack),
             }
 
         print(f"Fetched page {page}/{last_page}: {len(rows_by_id)}/{reported_total or '?'}")
@@ -162,20 +214,95 @@ def build_rows() -> list[dict[str, Any]]:
         if page <= last_page:
             time.sleep(2.5)
 
-    rows = sorted(rows_by_id.values(), key=lambda row: (str(row["ROM Hack Title"]).casefold(), int(row["SMWC ID"])))
+    rows = sorted(
+        rows_by_id.values(),
+        key=lambda row: (str(row["ROM Hack Title"]).casefold(), int(row["SMWC ID"])),
+    )
     title_counts = Counter(str(row["ROM Hack Title"]).casefold() for row in rows)
     for row in rows:
         title = str(row["ROM Hack Title"])
-        row["Dropdown Selection"] = f'{title} [SMWC #{row["SMWC ID"]}]' if title_counts[title.casefold()] > 1 else title
+        row["Dropdown Selection"] = (
+            f'{title} [SMWC #{row["SMWC ID"]}]'
+            if title_counts[title.casefold()] > 1
+            else title
+        )
     return rows
 
-def main() -> int:
-    root = Path(__file__).resolve().parents[1]
-    data_dir = root / "data"
-    data_dir.mkdir(exist_ok=True)
-    rows = build_rows()
 
-    with (data_dir / "SMWCentral_All_Moderated_Hacks.csv").open("w", newline="", encoding="utf-8-sig") as handle:
+def canonical_row(row: dict[str, Any]) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    for header in HEADERS:
+        value = row.get(header, "")
+        if header == "Exits":
+            try:
+                value = int(value)
+            except (TypeError, ValueError):
+                value = 0
+        else:
+            value = str(value or "").strip()
+        result[header] = value
+    return result
+
+
+def load_old_rows(data_dir: Path) -> list[dict[str, Any]]:
+    json_path = data_dir / "SMWCentral_All_Moderated_Hacks.json"
+    if json_path.exists():
+        try:
+            payload = json.loads(json_path.read_text(encoding="utf-8-sig"))
+            if isinstance(payload, dict) and "value" in payload:
+                payload = payload["value"]
+            if isinstance(payload, list):
+                return [canonical_row(row) for row in payload if isinstance(row, dict)]
+        except Exception:  # noqa: BLE001
+            pass
+
+    csv_path = data_dir / "SMWCentral_All_Moderated_Hacks.csv"
+    if csv_path.exists():
+        with csv_path.open("r", newline="", encoding="utf-8-sig") as handle:
+            return [canonical_row(row) for row in csv.DictReader(handle)]
+    return []
+
+
+def load_version(data_dir: Path) -> dict[str, Any]:
+    path = data_dir / "version.json"
+    if not path.exists():
+        return {"sequence": 0}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {"sequence": 0}
+    except Exception:  # noqa: BLE001
+        return {"sequence": 0}
+
+
+def index_by_id(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    return {
+        str(row.get("SMWC ID", "")).strip(): canonical_row(row)
+        for row in rows
+        if str(row.get("SMWC ID", "")).strip()
+    }
+
+
+def calculate_changes(
+    old_rows: list[dict[str, Any]],
+    new_rows: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    old = index_by_id(old_rows)
+    new = index_by_id(new_rows)
+
+    added = [new[key] for key in sorted(new.keys() - old.keys(), key=int)]
+    removed = [old[key] for key in sorted(old.keys() - new.keys(), key=int)]
+    updated = [
+        new[key]
+        for key in sorted(new.keys() & old.keys(), key=int)
+        if new[key] != old[key]
+    ]
+    return added, updated, removed
+
+
+def write_full_catalog(data_dir: Path, rows: list[dict[str, Any]]) -> None:
+    with (data_dir / "SMWCentral_All_Moderated_Hacks.csv").open(
+        "w", newline="", encoding="utf-8-sig"
+    ) as handle:
         writer = csv.DictWriter(handle, fieldnames=HEADERS)
         writer.writeheader()
         writer.writerows(rows)
@@ -185,27 +312,97 @@ def main() -> int:
         encoding="utf-8",
     )
 
+
+def write_delta(
+    data_dir: Path,
+    sequence: int,
+    added: list[dict[str, Any]],
+    updated: list[dict[str, Any]],
+    removed: list[dict[str, Any]],
+) -> str:
+    deltas_dir = data_dir / "deltas"
+    deltas_dir.mkdir(exist_ok=True)
+    filename = f"{sequence:08d}.csv"
+    path = deltas_dir / filename
+
+    operations: list[dict[str, Any]] = []
+    for operation, rows in (("UPSERT", added), ("UPSERT", updated), ("DELETE", removed)):
+        for row in rows:
+            operations.append({"Operation": operation, **canonical_row(row)})
+
+    with path.open("w", newline="", encoding="utf-8-sig") as handle:
+        writer = csv.DictWriter(handle, fieldnames=DELTA_HEADERS)
+        writer.writeheader()
+        writer.writerows(operations)
+    return f"data/deltas/{filename}"
+
+
+def main() -> int:
+    root = Path(__file__).resolve().parents[1]
+    data_dir = root / "data"
+    data_dir.mkdir(exist_ok=True)
+
+    old_rows = load_old_rows(data_dir)
+    old_version = load_version(data_dir)
+    old_sequence = int(old_version.get("sequence", 0) or 0)
+
+    new_rows = [canonical_row(row) for row in build_rows()]
+    added, updated, removed = calculate_changes(old_rows, new_rows)
+
+    if not added and not updated and not removed:
+        print("No catalog changes. No delta file was created.")
+        # Ensure an old-style version file is migrated to incremental format once.
+        if "sequence" not in old_version or old_version.get("refresh_mode") != "incremental":
+            old_version.update(
+                {
+                    "sequence": old_sequence,
+                    "latest_delta": old_version.get("latest_delta", ""),
+                    "added_count": 0,
+                    "updated_count": 0,
+                    "removed_count": 0,
+                    "refresh_mode": "incremental",
+                    "schema": "v3-incremental-rating-random-finder",
+                }
+            )
+            (data_dir / "version.json").write_text(
+                json.dumps(old_version, indent=2), encoding="utf-8"
+            )
+        return 0
+
+    sequence = old_sequence + 1
+    delta_file = write_delta(data_dir, sequence, added, updated, removed)
+    write_full_catalog(data_dir, new_rows)
+
     now = datetime.now(timezone.utc).replace(microsecond=0)
+    version = {
+        "catalog_version": now.strftime("%Y.%m.%d"),
+        "generated_at_utc": now.isoformat(),
+        "hack_count": len(new_rows),
+        "sequence": sequence,
+        "latest_delta": delta_file,
+        "added_count": len(added),
+        "updated_count": len(updated),
+        "removed_count": len(removed),
+        "refresh_mode": "incremental",
+        "schema": "v3-incremental-rating-random-finder",
+        "source": "SMWCentral moderated Super Mario World hacks catalog",
+    }
     (data_dir / "version.json").write_text(
-        json.dumps(
-            {
-                "catalog_version": now.strftime("%Y.%m.%d"),
-                "generated_at_utc": now.isoformat(),
-                "hack_count": len(rows),
-                "source": "SMWCentral moderated Super Mario World hacks catalog",
-            },
-            indent=2,
-        ),
-        encoding="utf-8",
+        json.dumps(version, indent=2), encoding="utf-8"
     )
-    print(f"Saved {len(rows):,} hacks.")
+
+    print(
+        f"Published delta {sequence:08d}: "
+        f"{len(added)} added, {len(updated)} updated, {len(removed)} removed."
+    )
     return 0
+
 
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except KeyboardInterrupt:
         raise SystemExit(130)
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         print(f"ERROR: {exc}", file=sys.stderr)
         raise SystemExit(1)
