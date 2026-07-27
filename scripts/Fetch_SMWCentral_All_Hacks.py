@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import time
+import traceback
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -274,12 +275,41 @@ def load_version(data_dir: Path) -> dict[str, Any]:
         return {"sequence": 0}
 
 
+def is_official_smwc_id(value: Any) -> bool:
+    """Official SMWCentral section IDs are numeric.
+
+    The repository may also contain curated/manual catalog entries whose ID is
+    something like ``N/A`` or ``MANUAL-...``. Those entries must not be passed
+    to ``int()`` or deleted just because they are not returned by the moderated
+    SMWCentral API.
+    """
+    return str(value or "").strip().isdigit()
+
+
+def smwc_id_sort_key(value: Any) -> tuple[int, Any]:
+    text = str(value or "").strip()
+    if text.isdigit():
+        return (0, int(text))
+    return (1, text.casefold())
+
+
 def index_by_id(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    return {
-        str(row.get("SMWC ID", "")).strip(): canonical_row(row)
+    result: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        smwc_id = str(row.get("SMWC ID", "")).strip()
+        if is_official_smwc_id(smwc_id):
+            result[smwc_id] = canonical_row(row)
+    return result
+
+
+def curated_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Preserve nonnumeric catalog entries maintained in the repository."""
+    return [
+        canonical_row(row)
         for row in rows
-        if str(row.get("SMWC ID", "")).strip()
-    }
+        if not is_official_smwc_id(row.get("SMWC ID", ""))
+        and str(row.get("ROM Hack Title", "")).strip()
+    ]
 
 
 def calculate_changes(
@@ -289,11 +319,17 @@ def calculate_changes(
     old = index_by_id(old_rows)
     new = index_by_id(new_rows)
 
-    added = [new[key] for key in sorted(new.keys() - old.keys(), key=int)]
-    removed = [old[key] for key in sorted(old.keys() - new.keys(), key=int)]
+    added = [
+        new[key]
+        for key in sorted(new.keys() - old.keys(), key=smwc_id_sort_key)
+    ]
+    removed = [
+        old[key]
+        for key in sorted(old.keys() - new.keys(), key=smwc_id_sort_key)
+    ]
     updated = [
         new[key]
-        for key in sorted(new.keys() & old.keys(), key=int)
+        for key in sorted(new.keys() & old.keys(), key=smwc_id_sort_key)
         if new[key] != old[key]
     ]
     return added, updated, removed
@@ -346,8 +382,19 @@ def main() -> int:
     old_version = load_version(data_dir)
     old_sequence = int(old_version.get("sequence", 0) or 0)
 
-    new_rows = [canonical_row(row) for row in build_rows()]
-    added, updated, removed = calculate_changes(old_rows, new_rows)
+    api_rows = [canonical_row(row) for row in build_rows()]
+    preserved_rows = curated_rows(old_rows)
+    added, updated, removed = calculate_changes(old_rows, api_rows)
+
+    # The full downloadable catalog contains current official API rows plus any
+    # curated nonnumeric entries already maintained in the repository.
+    new_rows = sorted(
+        [*api_rows, *preserved_rows],
+        key=lambda row: (
+            str(row.get("ROM Hack Title", "")).casefold(),
+            smwc_id_sort_key(row.get("SMWC ID", "")),
+        ),
+    )
 
     if not added and not updated and not removed:
         print("No catalog changes. No delta file was created.")
@@ -383,6 +430,7 @@ def main() -> int:
         "added_count": len(added),
         "updated_count": len(updated),
         "removed_count": len(removed),
+        "curated_count": len(preserved_rows),
         "refresh_mode": "incremental",
         "schema": "v3-incremental-rating-random-finder",
         "source": "SMWCentral moderated Super Mario World hacks catalog",
@@ -393,7 +441,8 @@ def main() -> int:
 
     print(
         f"Published delta {sequence:08d}: "
-        f"{len(added)} added, {len(updated)} updated, {len(removed)} removed."
+        f"{len(added)} added, {len(updated)} updated, {len(removed)} removed, "
+        f"{len(preserved_rows)} curated entries preserved."
     )
     return 0
 
@@ -405,4 +454,5 @@ if __name__ == "__main__":
         raise SystemExit(130)
     except Exception as exc:  # noqa: BLE001
         print(f"ERROR: {exc}", file=sys.stderr)
+        traceback.print_exc()
         raise SystemExit(1)
