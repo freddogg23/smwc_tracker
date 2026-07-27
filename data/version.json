@@ -1,13 +1,14 @@
 {
   "catalog_version": "2026.07.27",
-  "generated_at_utc": "2026-07-27T00:45:30+00:00",
-  "hack_count": 2747,
-  "source": "SMWCentral moderated Super Mario World hacks catalog",
-  "sequence": 0,
-  "latest_delta": "",
-  "added_count": 0,
-  "updated_count": 0,
-  "removed_count": 0,
+  "generated_at_utc": "2026-07-27T23:04:11+00:00",
+  "hack_count": 2750,
+  "sequence": 1,
+  "latest_delta": "data/deltas/00000001.csv",
+  "added_count": 8,
+  "updated_count": 2741,
+  "removed_count": 5,
+  "curated_count": 1,
   "refresh_mode": "incremental",
-  "schema": "v3-incremental-rating-random-finder"
+  "schema": "v3-incremental-rating-random-finder",
+  "source": "SMWCentral moderated Super Mario World hacks catalog"
 }
