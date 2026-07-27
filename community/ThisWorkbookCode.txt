@@ -1,0 +1,7 @@
+' Optional Workbook event code.
+' The builder does not require this file. It is included for reference only.
+' If added to ThisWorkbook, it can reinstall buttons automatically after opening.
+Private Sub Workbook_Open()
+    On Error Resume Next
+    InstallButtons
+End Sub
