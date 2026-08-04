@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "version": "1.0.1",
+  "release_date": "2026-08-03",
+  "notes": [
+    "The SMW Stream Tracker desktop updater has moved to the public SMW-Stream-Tracker repository.",
+    "Run the complete 1.0.1 installer once to migrate saved update settings and add File > About & Updates."
+  ],
+  "updater_url": "https://github.com/freddogg23/SMW-Stream-Tracker/releases/download/v1.0.1/SMWStreamTracker_Update_1.0.1.exe",
+  "sha256": "9a73c69d599a010038c4a745ed0600549a30d4a099776ad315fba7e66d0ac7b8",
+  "size": 65851485
+}
