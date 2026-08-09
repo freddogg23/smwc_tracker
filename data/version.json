@@ -1,9 +1,9 @@
 {
-  "catalog_version": "2026.08.08",
-  "generated_at_utc": "2026-08-08T09:55:26+00:00",
+  "catalog_version": "2026.08.09",
+  "generated_at_utc": "2026-08-09T09:57:24+00:00",
   "hack_count": 2752,
-  "sequence": 13,
-  "latest_delta": "data/deltas/00000013.csv",
+  "sequence": 14,
+  "latest_delta": "data/deltas/00000014.csv",
   "added_count": 0,
   "updated_count": 3,
   "removed_count": 0,
