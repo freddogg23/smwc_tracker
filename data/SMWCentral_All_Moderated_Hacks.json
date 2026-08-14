@@ -4469,7 +4469,7 @@
     "SMWC ID": "14831",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=14831&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/14831/CP.zip",
-    "SMWCentral Rating": "2.63"
+    "SMWCentral Rating": "2.57"
   },
   {
     "Dropdown Selection": "Chronoclasm",
@@ -4946,10 +4946,10 @@
     "Exits": 10,
     "Difficulty": "Advanced",
     "Type": "Kaizo",
-    "Added Date": "2025-07-29",
-    "SMWC ID": "40194",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=40194&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/40194/Critter%20Quest%20v1.1.zip",
+    "Added Date": "2026-08-13",
+    "SMWC ID": "42841",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42841&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42841/Critter%20Quest%20v1.2.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -7719,7 +7719,7 @@
     "SMWC ID": "19541",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=19541&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/19541/Grand%20Poo%20World%202%201.1.zip",
-    "SMWCentral Rating": "4.59"
+    "SMWCentral Rating": "4.6"
   },
   {
     "Dropdown Selection": "Grand Poo World 3",
@@ -12958,7 +12958,7 @@
     "SMWC ID": "15939",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=15939&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/15939/MIMFixedIntros.zip",
-    "SMWCentral Rating": "4.5"
+    "SMWCentral Rating": "4.51"
   },
   {
     "Dropdown Selection": "Mario is Missing... again",
@@ -19101,7 +19101,7 @@
     "ROM Hack Title": "Retro Marioland",
     "Created By": "LocoFuzzyPants",
     "Exits": 10,
-    "Difficulty": "Advanced",
+    "Difficulty": "Expert",
     "Type": "Kaizo",
     "Added Date": "2024-10-07",
     "SMWC ID": "38510",
@@ -25373,7 +25373,7 @@
     "SMWC ID": "13608",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=13608&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/13608/TatangasReturn2.1.zip",
-    "SMWCentral Rating": "4.17"
+    "SMWCentral Rating": "4.19"
   },
   {
     "Dropdown Selection": "Super Mario Land 4",
@@ -25555,7 +25555,7 @@
     "SMWC ID": "22929",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=22929&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/22929/Outbreak%20Demo%20-%20Fixed.zip",
-    "SMWCentral Rating": "4.67"
+    "SMWCentral Rating": "4.7"
   },
   {
     "Dropdown Selection": "Super Mario OWMS",
@@ -29796,6 +29796,19 @@
     "SMWCentral Rating": "5"
   },
   {
+    "Dropdown Selection": "Super XLer8 World - Chapter 1: Luigi and the Seven Castles",
+    "ROM Hack Title": "Super XLer8 World - Chapter 1: Luigi and the Seven Castles",
+    "Created By": "XLer8",
+    "Exits": 20,
+    "Difficulty": "Intermediate",
+    "Type": "Standard",
+    "Added Date": "2026-08-13",
+    "SMWC ID": "42730",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42730&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42730/XL8.zip",
+    "SMWCentral Rating": "0"
+  },
+  {
     "Dropdown Selection": "Super Xtreme World",
     "ROM Hack Title": "Super Xtreme World",
     "Created By": "Infrared",
@@ -33537,7 +33550,7 @@
     "SMWC ID": "6059",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=6059&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/6059/Touhou%20Mario.zip",
-    "SMWCentral Rating": "4.24"
+    "SMWCentral Rating": "4.17"
   },
   {
     "Dropdown Selection": "Tower of Facades",
