@@ -2069,7 +2069,7 @@
   {
     "Dropdown Selection": "Apple Boy 2: Homebound Hero",
     "ROM Hack Title": "Apple Boy 2: Homebound Hero",
-    "Created By": "Apple Boy, KaidenThelens",
+    "Created By": "KaidenThelens, Sully1028",
     "Exits": 45,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -2082,7 +2082,7 @@
   {
     "Dropdown Selection": "Apple Boy: Attack of Ice Cream Man",
     "ROM Hack Title": "Apple Boy: Attack of Ice Cream Man",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 33,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -11403,7 +11403,7 @@
   {
     "Dropdown Selection": "Luigi and the Happy Hillside",
     "ROM Hack Title": "Luigi and the Happy Hillside",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 5,
     "Difficulty": "Newcomer",
     "Type": "Standard",
@@ -14042,7 +14042,7 @@
   {
     "Dropdown Selection": "Mario's Grand Adventure",
     "ROM Hack Title": "Mario's Grand Adventure",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 40,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -14055,7 +14055,7 @@
   {
     "Dropdown Selection": "Mario's Grand Adventure 2: Mario's World Tour",
     "ROM Hack Title": "Mario's Grand Adventure 2: Mario's World Tour",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 21,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -14068,7 +14068,7 @@
   {
     "Dropdown Selection": "Mario's Grand Adventure: Delta Island",
     "ROM Hack Title": "Mario's Grand Adventure: Delta Island",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 7,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -14081,7 +14081,7 @@
   {
     "Dropdown Selection": "Mario's Grand Adventure: Omega Jungle",
     "ROM Hack Title": "Mario's Grand Adventure: Omega Jungle",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 6,
     "Difficulty": "Newcomer",
     "Type": "Standard",
@@ -14103,6 +14103,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=9953&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/9953/Mario%27s%20Homeland%20%28Demo1%29.zip",
     "SMWCentral Rating": "3"
+  },
+  {
+    "Dropdown Selection": "Mario's Inferno",
+    "ROM Hack Title": "Mario's Inferno",
+    "Created By": "Midlife_Crises",
+    "Exits": 9,
+    "Difficulty": "Advanced",
+    "Type": "Kaizo",
+    "Added Date": "2026-08-22",
+    "SMWC ID": "42909",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42909&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42909/Mario%27s%20Inferno.zip",
+    "SMWCentral Rating": "4"
   },
   {
     "Dropdown Selection": "Mario's Island Exploration",
@@ -18262,7 +18275,7 @@
     "SMWC ID": "5131",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=5131&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/5131/Pokeys_Adventure_Demo1_v11.zip",
-    "SMWCentral Rating": "4"
+    "SMWCentral Rating": "3.82"
   },
   {
     "Dropdown Selection": "Pokémon Darkness",
@@ -24884,7 +24897,7 @@
   {
     "Dropdown Selection": "Super Mario Bros: The Search for Oreo Cakesters",
     "ROM Hack Title": "Super Mario Bros: The Search for Oreo Cakesters",
-    "Created By": "Apple Boy",
+    "Created By": "Sully1028",
     "Exits": 3,
     "Difficulty": "Casual",
     "Type": "Standard",
@@ -25092,7 +25105,7 @@
   {
     "Dropdown Selection": "Super Mario Flash 2: SMW Remake",
     "ROM Hack Title": "Super Mario Flash 2: SMW Remake",
-    "Created By": "Apple Boy, Dark Prince, Donut, Segment1Zone2, Stivi",
+    "Created By": "Dark Prince, Donut, Segment1Zone2, Stivi, Sully1028",
     "Exits": 20,
     "Difficulty": "Casual",
     "Type": "Standard",
