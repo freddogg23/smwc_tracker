@@ -6172,7 +6172,7 @@
     "SMWC ID": "38528",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=38528&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/38528/Easyland%202.zip",
-    "SMWCentral Rating": "4.92"
+    "SMWCentral Rating": "4.69"
   },
   {
     "Dropdown Selection": "Easyland 3",
@@ -9643,7 +9643,7 @@
     "SMWC ID": "42947",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42947&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42947/Journey%20to%20Kaizo%20v1.0.1.zip",
-    "SMWCentral Rating": "4.83"
+    "SMWCentral Rating": "4.72"
   },
   {
     "Dropdown Selection": "Journey To Peak",
@@ -17781,7 +17781,7 @@
     "SMWC ID": "20091",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=20091&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/20091/Kaizo%20Kindergarten%20v1.09.zip",
-    "SMWCentral Rating": "4.61"
+    "SMWCentral Rating": "4.62"
   },
   {
     "Dropdown Selection": "Panic in the Mushroom Kingdom",
@@ -21330,7 +21330,7 @@
     "SMWC ID": "25235",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=25235&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/25235/SMW2%2B3-TheEssenceStar.zip",
-    "SMWCentral Rating": "4.4"
+    "SMWCentral Rating": "4.5"
   },
   {
     "Dropdown Selection": "SMW: Gaiden",
@@ -21513,6 +21513,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=6304&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/6304/Something%20else%20.zip",
     "SMWCentral Rating": "4.59"
+  },
+  {
+    "Dropdown Selection": "Somewhere Beyond The Moon",
+    "ROM Hack Title": "Somewhere Beyond The Moon",
+    "Created By": "Doubldoom",
+    "Exits": 14,
+    "Difficulty": "Master",
+    "Type": "Kaizo",
+    "Added Date": "2026-09-04",
+    "SMWC ID": "43090",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43090&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43090/BeyondTheMoon.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Song's to Die to",
