@@ -1,0 +1,8 @@
+﻿Operation,Dropdown Selection,ROM Hack Title,Created By,Exits,Difficulty,Type,Added Date,SMWC ID,SMWCentral Page URL,Direct Download URL,SMWCentral Rating
+UPSERT,Kaizen Mario World,Kaizen Mario World,KoJi,13,Expert,Kaizo,2026-09-06,43120,https://www.smwcentral.net/?a=details&id=43120&p=section,https://dl.smwcentral.net/43120/kaizenmarioworld1.1.zip,0
+UPSERT,Broken Shell,Broken Shell,Pottsie,12,Expert,Kaizo,2026-09-07,43134,https://www.smwcentral.net/?a=details&id=43134&p=section,https://dl.smwcentral.net/43134/Broken%20Shell.zip,5
+UPSERT,Super Hark Bros,Super Hark Bros,ChrisG___,16,Advanced,Kaizo,2018-04-04,17304,https://www.smwcentral.net/?a=details&id=17304&p=section,https://dl.smwcentral.net/17304/Super%20Hark%20Bros%201.21.zip,4.33
+UPSERT,Scrap Diary,Scrap Diary,"Lazy, lolyoshi",82,Expert,Standard,2026-09-03,42894,https://www.smwcentral.net/?a=details&id=42894&p=section,https://dl.smwcentral.net/42894/Scrap%20Diary%20v1.0.zip,4.75
+UPSERT,Super Mario World: Vanilla Peak,Super Mario World: Vanilla Peak,Tob,6,Casual,Standard,2026-09-01,42895,https://www.smwcentral.net/?a=details&id=42895&p=section,https://dl.smwcentral.net/42895/smwvp.zip,3.5
+UPSERT,Journey to Kaizo,Journey to Kaizo,"Ahrion, CroNo486, Devazure, Spedinja, Team J2K",38,Intermediate,Kaizo,2026-08-23,42947,https://www.smwcentral.net/?a=details&id=42947&p=section,https://dl.smwcentral.net/42947/Journey%20to%20Kaizo%20v1.0.1.zip,4.74
+DELETE,Broken Shell,Broken Shell,Pottsie,12,Expert,Kaizo,2025-10-22,40848,https://www.smwcentral.net/?a=details&id=40848&p=section,https://dl.smwcentral.net/40848/Broken%20Shell.zip,5

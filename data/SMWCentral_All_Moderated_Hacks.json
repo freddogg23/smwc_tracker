@@ -3581,10 +3581,10 @@
     "Exits": 12,
     "Difficulty": "Expert",
     "Type": "Kaizo",
-    "Added Date": "2025-10-22",
-    "SMWC ID": "40848",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=40848&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/40848/Broken%20Shell.zip",
+    "Added Date": "2026-09-07",
+    "SMWC ID": "43134",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43134&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43134/Broken%20Shell.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -9643,7 +9643,7 @@
     "SMWC ID": "42947",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42947&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42947/Journey%20to%20Kaizo%20v1.0.1.zip",
-    "SMWCentral Rating": "4.73"
+    "SMWCentral Rating": "4.74"
   },
   {
     "Dropdown Selection": "Journey To Peak",
@@ -9956,6 +9956,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=39746&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/39746/Kaitenzushi%20v1_1.zip",
     "SMWCentral Rating": "5"
+  },
+  {
+    "Dropdown Selection": "Kaizen Mario World",
+    "ROM Hack Title": "Kaizen Mario World",
+    "Created By": "KoJi",
+    "Exits": 13,
+    "Difficulty": "Expert",
+    "Type": "Kaizo",
+    "Added Date": "2026-09-06",
+    "SMWC ID": "43120",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43120&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43120/kaizenmarioworld1.1.zip",
+    "SMWCentral Rating": "0"
   },
   {
     "Dropdown Selection": "Kaizo",
@@ -19913,7 +19926,7 @@
     "SMWC ID": "42894",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42894&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42894/Scrap%20Diary%20v1.0.zip",
-    "SMWCentral Rating": "4.8"
+    "SMWCentral Rating": "4.75"
   },
   {
     "Dropdown Selection": "Scyther Our Savior",
@@ -23397,7 +23410,7 @@
     "SMWC ID": "17304",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=17304&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/17304/Super%20Hark%20Bros%201.21.zip",
-    "SMWCentral Rating": "4.38"
+    "SMWCentral Rating": "4.33"
   },
   {
     "Dropdown Selection": "Super Hark Bros 2",
@@ -27713,7 +27726,7 @@
     "SMWC ID": "42895",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42895&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42895/smwvp.zip",
-    "SMWCentral Rating": "3"
+    "SMWCentral Rating": "3.5"
   },
   {
     "Dropdown Selection": "Super Mario World: Winter's Delight",
