@@ -1531,7 +1531,7 @@
     "SMWC ID": "5368",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=5368&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/5368/Adventure%20Land%20Demo%201.zip",
-    "SMWCentral Rating": "4"
+    "SMWCentral Rating": "3.33"
   },
   {
     "Dropdown Selection": "Adventure Of The Red Plumber",
@@ -2064,7 +2064,7 @@
     "SMWC ID": "42560",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42560&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42560/Aperitif1.1.zip",
-    "SMWCentral Rating": "4.67"
+    "SMWCentral Rating": "4.71"
   },
   {
     "Dropdown Selection": "App Strike",
@@ -2155,7 +2155,7 @@
     "SMWC ID": "27227",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=27227&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/27227/Arcane%20Mario%20World.zip",
-    "SMWCentral Rating": "4.5"
+    "SMWCentral Rating": "4.67"
   },
   {
     "Dropdown Selection": "Archipelago of Truth Collection",
@@ -5029,6 +5029,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=27238&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/27238/crossfire_v1.2.zip",
     "SMWCentral Rating": "4.43"
+  },
+  {
+    "Dropdown Selection": "Cruel Angel World",
+    "ROM Hack Title": "Cruel Angel World",
+    "Created By": "rottenangle",
+    "Exits": 15,
+    "Difficulty": "Master",
+    "Type": "Kaizo",
+    "Added Date": "2026-09-11",
+    "SMWC ID": "43073",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43073&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43073/Cruel%20Angel%20World%20V1.1.zip",
+    "SMWCentral Rating": "0"
   },
   {
     "Dropdown Selection": "Cruisy",
@@ -19458,7 +19471,7 @@
     "SMWC ID": "36801",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=36801&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/36801/roke%20shell.zip",
-    "SMWCentral Rating": "4.7"
+    "SMWCentral Rating": "4.73"
   },
   {
     "Dropdown Selection": "rokeshell 2",
@@ -20901,7 +20914,7 @@
     "SMWC ID": "42654",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42654&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42654/Smoked%20Fish%20and%20Cabbage%20v2.1.zip",
-    "SMWCentral Rating": "4.53"
+    "SMWCentral Rating": "4.56"
   },
   {
     "Dropdown Selection": "Smoked Fish and Cabbage 2",
@@ -22019,7 +22032,7 @@
     "SMWC ID": "42496",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42496&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42496/Starting%20with%20Kaizo%202%20-%201.0.1.zip",
-    "SMWCentral Rating": "5"
+    "SMWCentral Rating": "4.8"
   },
   {
     "Dropdown Selection": "Staycation",
@@ -27324,6 +27337,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=39962&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/39962/L4K%201.4.zip",
     "SMWCentral Rating": "4.5"
+  },
+  {
+    "Dropdown Selection": "Super Mario World: Legend of the Magical Dragons",
+    "ROM Hack Title": "Super Mario World: Legend of the Magical Dragons",
+    "Created By": "Green Jerry",
+    "Exits": 13,
+    "Difficulty": "Casual",
+    "Type": "Standard",
+    "Added Date": "2026-09-11",
+    "SMWC ID": "43085",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43085&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43085/Super%20Mario%20World%20-%20Legend%20of%20the%20Magical%20Dragons%20Demo%20v0.2.zip",
+    "SMWCentral Rating": "3.67"
   },
   {
     "Dropdown Selection": "Super Mario World: Moving Day",
@@ -33238,7 +33264,7 @@
     "SMWC ID": "42425",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42425&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42425/ThisIsWhyWeKaizo.zip",
-    "SMWCentral Rating": "4.83"
+    "SMWCentral Rating": "4.85"
   },
   {
     "Dropdown Selection": "Those Darn Plumbers",
@@ -35646,19 +35672,6 @@
     "SMWCentral Rating": "4.67"
   },
   {
-    "Dropdown Selection": "YNT MARIO",
-    "ROM Hack Title": "YNT MARIO",
-    "Created By": "YNT, astm",
-    "Exits": 113,
-    "Difficulty": "Expert",
-    "Type": "Standard",
-    "Added Date": "2026-06-28",
-    "SMWC ID": "42427",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42427&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/42427/ynt_mario_en_v1.0.6.zip",
-    "SMWCentral Rating": "4.67"
-  },
-  {
     "Dropdown Selection": "Yo mama is fat",
     "ROM Hack Title": "Yo mama is fat",
     "Created By": "Aguni_",
@@ -35955,7 +35968,7 @@
     "SMWC ID": "32587",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=32587&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/32587/Sure%20Shot.zip",
-    "SMWCentral Rating": "5"
+    "SMWCentral Rating": "4.95"
   },
   {
     "Dropdown Selection": "~omh~",
