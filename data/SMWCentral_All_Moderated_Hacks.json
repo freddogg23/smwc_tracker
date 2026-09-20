@@ -4491,10 +4491,10 @@
     "Exits": 6,
     "Difficulty": "Advanced",
     "Type": "Standard",
-    "Added Date": "2026-09-02",
-    "SMWC ID": "43106",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43106&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43106/Christmas%20Hack%202.zip",
+    "Added Date": "2026-09-20",
+    "SMWC ID": "43171",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43171&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43171/Christmas%20Hack%202.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -13842,7 +13842,7 @@
     "SMWC ID": "13372",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=13372&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/13372/Marios%20100s%20Challenge%20FINAL%202%2C1.zip",
-    "SMWCentral Rating": "3.85"
+    "SMWCentral Rating": "3.9"
   },
   {
     "Dropdown Selection": "Mario's 2 Ways 2 Victory",
@@ -18665,7 +18665,7 @@
     "SMWC ID": "21331",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=21331&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/21331/Death%20and%20Despair.zip",
-    "SMWCentral Rating": "4.6"
+    "SMWCentral Rating": "4.5"
   },
   {
     "Dropdown Selection": "Project Frick 2019",
@@ -19617,6 +19617,19 @@
     "SMWCentral Rating": "4.25"
   },
   {
+    "Dropdown Selection": "Rooting for Toad",
+    "ROM Hack Title": "Rooting for Toad",
+    "Created By": "GlitchyR-01",
+    "Exits": 4,
+    "Difficulty": "Newcomer",
+    "Type": "Standard",
+    "Added Date": "2026-09-20",
+    "SMWC ID": "43162",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43162&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43162/Rooting%20for%20Toad.zip",
+    "SMWCentral Rating": "0"
+  },
+  {
     "Dropdown Selection": "Rosalina's Gold Saga",
     "ROM Hack Title": "Rosalina's Gold Saga",
     "Created By": "Tiozinho",
@@ -20030,7 +20043,7 @@
     "SMWC ID": "20200",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=20200&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/20200/Secret_Of_Mario.zip",
-    "SMWCentral Rating": "4.86"
+    "SMWCentral Rating": "4.88"
   },
   {
     "Dropdown Selection": "Seek the Discrepancy",
@@ -21668,7 +21681,7 @@
     "SMWC ID": "39188",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=39188&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/39188/Sonic%20in%20a%20Kaizo%20World.zip",
-    "SMWCentral Rating": "0"
+    "SMWCentral Rating": "3"
   },
   {
     "Dropdown Selection": "Sonic's Adventure in Mushroom Kingdom",
@@ -27388,7 +27401,7 @@
     "SMWC ID": "43085",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43085&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43085/Super%20Mario%20World%20-%20Legend%20of%20the%20Magical%20Dragons%20Demo%20v0.2.zip",
-    "SMWCentral Rating": "4"
+    "SMWCentral Rating": "4.2"
   },
   {
     "Dropdown Selection": "Super Mario World: Moving Day",
@@ -34798,6 +34811,19 @@
     "SMWC ID": "40105",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=40105&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/40105/veryhard.zip",
+    "SMWCentral Rating": "5"
+  },
+  {
+    "Dropdown Selection": "Vice Versa Manor",
+    "ROM Hack Title": "Vice Versa Manor",
+    "Created By": "GbreezeSunset",
+    "Exits": 1,
+    "Difficulty": "Advanced",
+    "Type": "Kaizo, Puzzle",
+    "Added Date": "2026-09-20",
+    "SMWC ID": "43182",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43182&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43182/Vice%20Versa%20Manor.zip",
     "SMWCentral Rating": "5"
   },
   {
