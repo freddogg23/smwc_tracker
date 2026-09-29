@@ -9721,7 +9721,7 @@
     "SMWC ID": "43191",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43191&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43191/Journey%20to%20Kaizo%20v1.1.0.zip",
-    "SMWCentral Rating": "4.81"
+    "SMWCentral Rating": "4.79"
   },
   {
     "Dropdown Selection": "Journey To Peak",
@@ -15792,7 +15792,7 @@
     "SMWC ID": "43219",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43219&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43219/Moonlight.zip",
-    "SMWCentral Rating": "4.75"
+    "SMWCentral Rating": "4.6"
   },
   {
     "Dropdown Selection": "Morton's Empire",
@@ -24596,6 +24596,19 @@
     "SMWCentral Rating": "4.41"
   },
   {
+    "Dropdown Selection": "Super Mario Another Retro 2",
+    "ROM Hack Title": "Super Mario Another Retro 2",
+    "Created By": "Zavok",
+    "Exits": 81,
+    "Difficulty": "Intermediate",
+    "Type": "Standard",
+    "Added Date": "2026-09-29",
+    "SMWC ID": "42893",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42893&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42893/SMAR2.zip",
+    "SMWCentral Rating": "4.75"
+  },
+  {
     "Dropdown Selection": "Super Mario Another Retro 2 (Demo)",
     "ROM Hack Title": "Super Mario Another Retro 2 (Demo)",
     "Created By": "Zavok",
@@ -27687,7 +27700,7 @@
     "SMWC ID": "42564",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42564&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42564/Super%20Mario%20World%20-%20The%20Magical%20Golden%20Mushroom%20v1.2.zip",
-    "SMWCentral Rating": "4.75"
+    "SMWCentral Rating": "4.2"
   },
   {
     "Dropdown Selection": "Super Mario World: The Magical Wand",
@@ -34859,10 +34872,10 @@
     "Exits": 1,
     "Difficulty": "Advanced",
     "Type": "Kaizo, Puzzle",
-    "Added Date": "2026-09-20",
-    "SMWC ID": "43182",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43182&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43182/Vice%20Versa%20Manor.zip",
+    "Added Date": "2026-09-29",
+    "SMWC ID": "43234",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43234&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43234/Vice%20Versa%20Manor%20%28V1.1%29.zip",
     "SMWCentral Rating": "5"
   },
   {
