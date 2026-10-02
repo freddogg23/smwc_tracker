@@ -1,0 +1,13 @@
+﻿Operation,Dropdown Selection,ROM Hack Title,Created By,Exits,Difficulty,Type,Added Date,SMWC ID,SMWCentral Page URL,Direct Download URL,SMWCentral Rating
+UPSERT,Cosmic Carl's Happy Fun Slide,Cosmic Carl's Happy Fun Slide,Multiphonix,3,Casual,Standard,2026-10-02,42880,https://www.smwcentral.net/?a=details&id=42880&p=section,https://dl.smwcentral.net/42880/Cosmic%20Carl%27s%20Happy%20Fun%20Slide%20%28rev.%204%29.zip,0
+UPSERT,Vice Versa Manor,Vice Versa Manor,GbreezeSunset,1,Advanced,"Kaizo, Puzzle",2026-10-02,43251,https://www.smwcentral.net/?a=details&id=43251&p=section,https://dl.smwcentral.net/43251/Vice%20Versa%20Manor%20%28V1.2%29.zip,5
+UPSERT,The First Round,The First Round,GamesInTweed,0,Intermediate,Kaizo,2024-01-16,35612,https://www.smwcentral.net/?a=details&id=35612&p=section,https://dl.smwcentral.net/35612/The%20First%20Round%20v1.11.zip,4.5
+UPSERT,Old Marine World,Old Marine World,65563,6,Advanced,Kaizo,2024-06-25,37912,https://www.smwcentral.net/?a=details&id=37912&p=section,https://dl.smwcentral.net/37912/Old%20Marine%20World.zip,2.67
+UPSERT,Tower Of Nopecr,Tower Of Nopecr,65563,1,Expert,Kaizo,2024-11-17,38786,https://www.smwcentral.net/?a=details&id=38786&p=section,https://dl.smwcentral.net/38786/Tower_Of_Nopecr.zip,4
+UPSERT,Digital Rage World,Digital Rage World,65563,15,Advanced,Kaizo,2024-12-10,38888,https://www.smwcentral.net/?a=details&id=38888&p=section,https://dl.smwcentral.net/38888/Digital_Rage_World.zip,3.33
+UPSERT,Super Linkdeadx Dream,Super Linkdeadx Dream,65563,0,Expert,Kaizo,2025-07-31,40178,https://www.smwcentral.net/?a=details&id=40178&p=section,https://dl.smwcentral.net/40178/Super%20Linkdeadx%20Dream.zip,1
+UPSERT,Super Oreetv World,Super Oreetv World,65563,23,Expert,Kaizo,2025-10-24,40758,https://www.smwcentral.net/?a=details&id=40758&p=section,https://dl.smwcentral.net/40758/Super%20Oreetv%20World.zip,0
+UPSERT,Iridium,Iridium,1mslakingoff,17,Expert,Kaizo,2026-05-12,42315,https://www.smwcentral.net/?a=details&id=42315&p=section,https://dl.smwcentral.net/42315/Iridium.zip,4.75
+UPSERT,Scrap Diary,Scrap Diary,"Lazy, lolyoshi",82,Expert,Standard,2026-09-03,42894,https://www.smwcentral.net/?a=details&id=42894&p=section,https://dl.smwcentral.net/42894/Scrap%20Diary%20v1.0.zip,4.86
+UPSERT,Journey to Kaizo,Journey to Kaizo,"Ahrion, CroNo486, Devazure, Spedinja, Team J2K",38,Intermediate,Kaizo,2026-09-24,43191,https://www.smwcentral.net/?a=details&id=43191&p=section,https://dl.smwcentral.net/43191/Journey%20to%20Kaizo%20v1.1.0.zip,4.8
+DELETE,Vice Versa Manor,Vice Versa Manor,GbreezeSunset,1,Advanced,"Kaizo, Puzzle",2026-09-29,43234,https://www.smwcentral.net/?a=details&id=43234&p=section,https://dl.smwcentral.net/43234/Vice%20Versa%20Manor%20%28V1.1%29.zip,5
