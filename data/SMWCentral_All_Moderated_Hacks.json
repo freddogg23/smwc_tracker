@@ -7117,11 +7117,11 @@
     "Exits": 8,
     "Difficulty": "Expert",
     "Type": "Kaizo",
-    "Added Date": "2026-09-15",
-    "SMWC ID": "43148",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43148&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43148/For%20the%20Love%20of%20Mario.zip",
-    "SMWCentral Rating": "0"
+    "Added Date": "2026-10-06",
+    "SMWC ID": "43243",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43243&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43243/For%20the%20Love%20of%20Mario%20v1.1.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Forer - Barnum",
@@ -18496,7 +18496,7 @@
     "SMWC ID": "27893",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=27893&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/27893/POLYPHONY_1.1.1.zip",
-    "SMWCentral Rating": "4.38"
+    "SMWCentral Rating": "4.33"
   },
   {
     "Dropdown Selection": "poop jump",
@@ -33511,7 +33511,7 @@
     "SMWC ID": "28647",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=28647&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/28647/Timeline%20World%201.2.zip",
-    "SMWCentral Rating": "3"
+    "SMWCentral Rating": "2.6"
   },
   {
     "Dropdown Selection": "Tiny Variety World",
@@ -35475,6 +35475,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=20891&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/20891/Whats_The_Name_Of_This_Hack_v1_7.zip",
     "SMWCentral Rating": "3.85"
+  },
+  {
+    "Dropdown Selection": "Whatever this is - Demo",
+    "ROM Hack Title": "Whatever this is - Demo",
+    "Created By": "Yohipea7.62",
+    "Exits": 5,
+    "Difficulty": "Intermediate",
+    "Type": "Standard",
+    "Added Date": "2026-10-07",
+    "SMWC ID": "43202",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43202&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43202/Whatever%20This%20Is%20-%20Demo.zip",
+    "SMWCentral Rating": "0"
   },
   {
     "Dropdown Selection": "Where the universe breaks",
