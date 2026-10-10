@@ -2415,7 +2415,7 @@
     "SMWC ID": "43132",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43132&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43132/Baby_Kaizo_World_3.zip",
-    "SMWCentral Rating": "4.6"
+    "SMWCentral Rating": "4"
   },
   {
     "Dropdown Selection": "Back to the Classics",
@@ -35448,6 +35448,19 @@
     "SMWC ID": "27263",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=27263&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/27263/What%20The%20Shell%21.zip",
+    "SMWCentral Rating": "0"
+  },
+  {
+    "Dropdown Selection": "What The Shell! 2",
+    "ROM Hack Title": "What The Shell! 2",
+    "Created By": "GrenudoGames",
+    "Exits": 26,
+    "Difficulty": "Expert",
+    "Type": "Kaizo",
+    "Added Date": "2026-10-09",
+    "SMWC ID": "43254",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43254&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43254/What%20The%20Shell%202%21%21.zip",
     "SMWCentral Rating": "0"
   },
   {
