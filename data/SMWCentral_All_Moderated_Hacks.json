@@ -1297,7 +1297,7 @@
     "SMWC ID": "39597",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=39597&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/39597/A%20Thing%20With%20Peiton%20v.1.1.zip",
-    "SMWCentral Rating": "4.5"
+    "SMWCentral Rating": "3.67"
   },
   {
     "Dropdown Selection": "A Vanilla Level",
@@ -5037,10 +5037,10 @@
     "Exits": 14,
     "Difficulty": "Advanced",
     "Type": "Kaizo",
-    "Added Date": "2025-12-16",
-    "SMWC ID": "41278",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41278&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/41278/Critter%20Quest%20Jr.zip",
+    "Added Date": "2026-10-11",
+    "SMWC ID": "43324",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43324&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43324/Critter%20Quest%20Jr%20v1.1.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -5289,6 +5289,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=38109&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/38109/Daisy%27s_Crazy_Adventure_1.1.0.zip",
     "SMWCentral Rating": "4.92"
+  },
+  {
+    "Dropdown Selection": "Daizo VS MIXTAPE",
+    "ROM Hack Title": "Daizo VS MIXTAPE",
+    "Created By": "Team JANK",
+    "Exits": 12,
+    "Difficulty": "Master",
+    "Type": "Standard, Kaizo",
+    "Added Date": "2026-10-11",
+    "SMWC ID": "42884",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42884&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42884/%5BHack%5D%20Daizo%20VS%20MIXTAPE%20v1.02.zip",
+    "SMWCentral Rating": "2.25"
   },
   {
     "Dropdown Selection": "Dancer to a Discordant System",
@@ -6835,7 +6848,7 @@
     "SMWC ID": "28771",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=28771&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/28771/EZ%20Kaizo%201.0.zip",
-    "SMWCentral Rating": "4.44"
+    "SMWCentral Rating": "4.24"
   },
   {
     "Dropdown Selection": "F-Mario: Galaxy Cup",
@@ -9734,7 +9747,7 @@
     "SMWC ID": "43191",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43191&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43191/Journey%20to%20Kaizo%20v1.1.0.zip",
-    "SMWCentral Rating": "4.82"
+    "SMWCentral Rating": "4.73"
   },
   {
     "Dropdown Selection": "Journey To Peak",
@@ -20940,7 +20953,7 @@
     "SMWC ID": "43131",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43131&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43131/Six%20Cruel%20Hours%20Of%20Our%20Lives.zip",
-    "SMWCentral Rating": "2"
+    "SMWCentral Rating": "1.67"
   },
   {
     "Dropdown Selection": "Six Pack: VLDC Compilation",
@@ -26331,10 +26344,10 @@
     "Exits": 62,
     "Difficulty": "Casual",
     "Type": "Standard",
-    "Added Date": "2026-06-18",
-    "SMWC ID": "42380",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42380&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/42380/Super%20Mario%20World%20-%20Bowser%27s%20Return%20Redux.zip",
+    "Added Date": "2026-10-12",
+    "SMWC ID": "42717",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42717&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42717/Super%20Mario%20World%20-%20Bowser%27s%20Return%20Redux%20%28Version%201.2%29.zip",
     "SMWCentral Rating": "4.67"
   },
   {
