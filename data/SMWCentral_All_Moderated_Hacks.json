@@ -4775,8 +4775,8 @@
     "ROM Hack Title": "COLORS 2",
     "Created By": "MolSno",
     "Exits": 8,
-    "Difficulty": "Intermediate",
-    "Type": "Standard",
+    "Difficulty": "Advanced",
+    "Type": "Kaizo",
     "Added Date": "2015-11-26",
     "SMWC ID": "12725",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=12725&p=section",
@@ -5076,11 +5076,11 @@
     "Exits": 15,
     "Difficulty": "Master",
     "Type": "Kaizo",
-    "Added Date": "2026-09-11",
-    "SMWC ID": "43073",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43073&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43073/Cruel%20Angel%20World%20V1.1.zip",
-    "SMWCentral Rating": "0"
+    "Added Date": "2026-10-22",
+    "SMWC ID": "43225",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43225&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43225/Cruel%20Angel%20World%20V1.2.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Cruisy",
@@ -7381,7 +7381,7 @@
     "SMWC ID": "37900",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=37900&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/37900/FulfillTheDream.zip",
-    "SMWCentral Rating": "4.82"
+    "SMWCentral Rating": "4.83"
   },
   {
     "Dropdown Selection": "Full Bloom",
@@ -34161,7 +34161,7 @@
     "SMWC ID": "42703",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42703&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42703/Tribute.zip",
-    "SMWCentral Rating": "4.73"
+    "SMWCentral Rating": "4.75"
   },
   {
     "Dropdown Selection": "Tricky Mario",
@@ -35587,11 +35587,11 @@
     "Exits": 17,
     "Difficulty": "Intermediate",
     "Type": "Kaizo",
-    "Added Date": "2026-10-16",
-    "SMWC ID": "43344",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43344&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43344/Whim.zip",
-    "SMWCentral Rating": "4.9"
+    "Added Date": "2026-10-22",
+    "SMWC ID": "43384",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43384&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43384/Whim1.1.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "White Men Can´t Toss",

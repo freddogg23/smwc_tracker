@@ -1,0 +1,8 @@
+﻿Operation,Dropdown Selection,ROM Hack Title,Created By,Exits,Difficulty,Type,Added Date,SMWC ID,SMWCentral Page URL,Direct Download URL,SMWCentral Rating
+UPSERT,Cruel Angel World,Cruel Angel World,rottenangle,15,Master,Kaizo,2026-10-22,43225,https://www.smwcentral.net/?a=details&id=43225&p=section,https://dl.smwcentral.net/43225/Cruel%20Angel%20World%20V1.2.zip,5
+UPSERT,Whim,Whim,TheTrueCommonSense,17,Intermediate,Kaizo,2026-10-22,43384,https://www.smwcentral.net/?a=details&id=43384&p=section,https://dl.smwcentral.net/43384/Whim1.1.zip,5
+UPSERT,COLORS 2,COLORS 2,MolSno,8,Advanced,Kaizo,2015-11-26,12725,https://www.smwcentral.net/?a=details&id=12725&p=section,https://dl.smwcentral.net/12725/COLORS%202.zip,4.32
+UPSERT,Fulfill the Dream,Fulfill the Dream,Abstract,22,Expert,Kaizo,2024-06-08,37900,https://www.smwcentral.net/?a=details&id=37900&p=section,https://dl.smwcentral.net/37900/FulfillTheDream.zip,4.83
+UPSERT,Tribute,Tribute,JakAttack,16,Intermediate,Kaizo,2026-07-18,42703,https://www.smwcentral.net/?a=details&id=42703&p=section,https://dl.smwcentral.net/42703/Tribute.zip,4.75
+DELETE,Cruel Angel World,Cruel Angel World,rottenangle,15,Master,Kaizo,2026-09-11,43073,https://www.smwcentral.net/?a=details&id=43073&p=section,https://dl.smwcentral.net/43073/Cruel%20Angel%20World%20V1.1.zip,0
+DELETE,Whim,Whim,TheTrueCommonSense,17,Intermediate,Kaizo,2026-10-16,43344,https://www.smwcentral.net/?a=details&id=43344&p=section,https://dl.smwcentral.net/43344/Whim.zip,4.9
