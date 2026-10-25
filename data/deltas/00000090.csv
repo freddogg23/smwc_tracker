@@ -1,0 +1,8 @@
+﻿Operation,Dropdown Selection,ROM Hack Title,Created By,Exits,Difficulty,Type,Added Date,SMWC ID,SMWCentral Page URL,Direct Download URL,SMWCentral Rating
+UPSERT,Somewhere Beyond The Moon,Somewhere Beyond The Moon,Doubldoom,14,Master,Kaizo,2026-10-25,43224,https://www.smwcentral.net/?a=details&id=43224&p=section,https://dl.smwcentral.net/43224/BeyondTheMoon.zip,5
+UPSERT,Omerta,Omerta,detroitkoza,10,Advanced,Kaizo,2026-10-24,43399,https://www.smwcentral.net/?a=details&id=43399&p=section,https://dl.smwcentral.net/43399/Omerta.zip,0
+UPSERT,COLORS [SMWC #6095],COLORS,MolSno,5,Advanced,Standard,2014-01-05,6095,https://www.smwcentral.net/?a=details&id=6095&p=section,https://dl.smwcentral.net/6095/COLORS.zip,4.42
+UPSERT,Hummer Super Mario World,Hummer Super Mario World,King Mayro,28,Casual,Standard,2022-10-02,32158,https://www.smwcentral.net/?a=details&id=32158&p=section,https://dl.smwcentral.net/32158/HummerSMW%20VER7.8.zip,4.57
+UPSERT,Neighborhood of Make-Believe,Neighborhood of Make-Believe,The_Uber_Camper,16,Intermediate,Kaizo,2024-12-22,38883,https://www.smwcentral.net/?a=details&id=38883&p=section,https://dl.smwcentral.net/38883/Neighborhood%20of%20Make-Believe%20v1.1.zip,4.14
+UPSERT,Super Mario Universe Chapter 1,Super Mario Universe Chapter 1,Cwole23,96,Casual,Standard,2026-10-24,43394,https://www.smwcentral.net/?a=details&id=43394&p=section,https://dl.smwcentral.net/43394/SMUCH1.zip,5
+DELETE,Somewhere Beyond The Moon,Somewhere Beyond The Moon,Doubldoom,14,Master,Kaizo,2026-09-04,43090,https://www.smwcentral.net/?a=details&id=43090&p=section,https://dl.smwcentral.net/43090/BeyondTheMoon.zip,5

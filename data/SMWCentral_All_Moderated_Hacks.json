@@ -4749,13 +4749,13 @@
     "ROM Hack Title": "COLORS",
     "Created By": "MolSno",
     "Exits": 5,
-    "Difficulty": "Intermediate",
+    "Difficulty": "Advanced",
     "Type": "Standard",
     "Added Date": "2014-01-05",
     "SMWC ID": "6095",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=6095&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/6095/COLORS.zip",
-    "SMWCentral Rating": "4.39"
+    "SMWCentral Rating": "4.42"
   },
   {
     "Dropdown Selection": "Colors [SMWC #28250]",
@@ -8824,7 +8824,7 @@
     "SMWC ID": "32158",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=32158&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/32158/HummerSMW%20VER7.8.zip",
-    "SMWCentral Rating": "4.5"
+    "SMWCentral Rating": "4.57"
   },
   {
     "Dropdown Selection": "Hunter & SCORPION's Bet Saga - SCORPION's Ravage",
@@ -16377,7 +16377,7 @@
     "SMWC ID": "38883",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=38883&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/38883/Neighborhood%20of%20Make-Believe%20v1.1.zip",
-    "SMWCentral Rating": "4.08"
+    "SMWCentral Rating": "4.14"
   },
   {
     "Dropdown Selection": "Neko Nightmare",
@@ -17509,6 +17509,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=37912&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/37912/Old%20Marine%20World.zip",
     "SMWCentral Rating": "2.67"
+  },
+  {
+    "Dropdown Selection": "Omerta",
+    "ROM Hack Title": "Omerta",
+    "Created By": "detroitkoza",
+    "Exits": 10,
+    "Difficulty": "Advanced",
+    "Type": "Kaizo",
+    "Added Date": "2026-10-24",
+    "SMWC ID": "43399",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43399&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43399/Omerta.zip",
+    "SMWCentral Rating": "0"
   },
   {
     "Dropdown Selection": "On The Edge",
@@ -21716,10 +21729,10 @@
     "Exits": 14,
     "Difficulty": "Master",
     "Type": "Kaizo",
-    "Added Date": "2026-09-04",
-    "SMWC ID": "43090",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43090&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43090/BeyondTheMoon.zip",
+    "Added Date": "2026-10-25",
+    "SMWC ID": "43224",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43224&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43224/BeyondTheMoon.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -26283,7 +26296,7 @@
     "SMWC ID": "43394",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43394&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43394/SMUCH1.zip",
-    "SMWCentral Rating": "0"
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Super Mario Universe Deluxe",
