@@ -7056,7 +7056,7 @@
     "SMWC ID": "28341",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=28341&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/28341/Flip%20The%20Switch.bps.zip",
-    "SMWCentral Rating": "4.8"
+    "SMWCentral Rating": "4.83"
   },
   {
     "Dropdown Selection": "FLOATING MUNCHERS SERIES?",
@@ -12077,6 +12077,19 @@
     "SMWCentral Rating": "4.91"
   },
   {
+    "Dropdown Selection": "Made Together",
+    "ROM Hack Title": "Made Together",
+    "Created By": "Saphros",
+    "Exits": 12,
+    "Difficulty": "Expert",
+    "Type": "Kaizo",
+    "Added Date": "2026-10-31",
+    "SMWC ID": "43432",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43432&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43432/Made%20Together.zip",
+    "SMWCentral Rating": "5"
+  },
+  {
     "Dropdown Selection": "Magiopolis",
     "ROM Hack Title": "Magiopolis",
     "Created By": "Mpereira",
@@ -15838,13 +15851,13 @@
     "ROM Hack Title": "Moonlight",
     "Created By": "jirok1",
     "Exits": 10,
-    "Difficulty": "Casual",
+    "Difficulty": "Newcomer",
     "Type": "Kaizo",
-    "Added Date": "2026-09-25",
-    "SMWC ID": "43219",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43219&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43219/Moonlight.zip",
-    "SMWCentral Rating": "4.82"
+    "Added Date": "2026-11-01",
+    "SMWC ID": "43396",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43396&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43396/Moonlight1_1.zip",
+    "SMWCentral Rating": "4.75"
   },
   {
     "Dropdown Selection": "Morton's Empire",
