@@ -1661,7 +1661,7 @@
     "SMWC ID": "18612",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=18612&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/18612/Akogare%20v1.2.zip",
-    "SMWCentral Rating": "4.85"
+    "SMWCentral Rating": "4.86"
   },
   {
     "Dropdown Selection": "Alabaras Shells",
@@ -5301,7 +5301,7 @@
     "SMWC ID": "42884",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42884&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42884/%5BHack%5D%20Daizo%20VS%20MIXTAPE%20v1.02.zip",
-    "SMWCentral Rating": "2.18"
+    "SMWCentral Rating": "1.82"
   },
   {
     "Dropdown Selection": "Dancer to a Discordant System",
@@ -6276,6 +6276,19 @@
     "SMWC ID": "37611",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=37611&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/37611/EclecticShellv2.zip",
+    "SMWCentral Rating": "5"
+  },
+  {
+    "Dropdown Selection": "Eden_World: House of S'Platforms",
+    "ROM Hack Title": "Eden_World: House of S'Platforms",
+    "Created By": "Mars",
+    "Exits": 0,
+    "Difficulty": "Grandmaster",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-02",
+    "SMWC ID": "43398",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43398&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43398/Eden_World-%20House%20of%20S%27Platforms.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -12127,6 +12140,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=38063&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/38063/mancorsa.zip",
     "SMWCentral Rating": "4.67"
+  },
+  {
+    "Dropdown Selection": "Mangort Cafe",
+    "ROM Hack Title": "Mangort Cafe",
+    "Created By": "kellykelster",
+    "Exits": 1,
+    "Difficulty": "Expert",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-03",
+    "SMWC ID": "43439",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43439&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43439/mangortcafe.zip",
+    "SMWCentral Rating": "0"
   },
   {
     "Dropdown Selection": "Maple Island",
@@ -24541,7 +24567,7 @@
     "SMWC ID": "6068",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=6068&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/6068/Super%20Mario%202D%20Land%20fix%20Desember%202013.zip",
-    "SMWCentral Rating": "4.27"
+    "SMWCentral Rating": "4.28"
   },
   {
     "Dropdown Selection": "Super Mario 32 Levels",
