@@ -6562,7 +6562,7 @@
     "SMWC ID": "41609",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41609&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/41609/Escape%20from%20La%20Plume.zip",
-    "SMWCentral Rating": "5"
+    "SMWCentral Rating": "4.75"
   },
   {
     "Dropdown Selection": "Eternal Mario World",
@@ -17418,6 +17418,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=29614&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/29614/Obscure.zip",
     "SMWCentral Rating": "2.5"
+  },
+  {
+    "Dropdown Selection": "Obstacle Courses for Anti-Gravity Horses",
+    "ROM Hack Title": "Obstacle Courses for Anti-Gravity Horses",
+    "Created By": "IkeSMB, NixKillsMyths, flips_bad, magicker72",
+    "Exits": 13,
+    "Difficulty": "Grandmaster",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-04",
+    "SMWC ID": "41532",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41532&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/41532/Obstacle%20Courses%20for%20Anti-Gravity%20Horses.zip",
+    "SMWCentral Rating": "4.75"
   },
   {
     "Dropdown Selection": "Obstinate",
