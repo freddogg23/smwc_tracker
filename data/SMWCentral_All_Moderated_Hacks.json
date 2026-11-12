@@ -4998,10 +4998,10 @@
     "Exits": 102,
     "Difficulty": "Intermediate",
     "Type": "Standard",
-    "Added Date": "2026-07-01",
-    "SMWC ID": "42500",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42500&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/42500/Crash%20Bandicoot%20and%20the%20Retro%20Dimension%20Enhanced.zip",
+    "Added Date": "2026-11-12",
+    "SMWC ID": "42820",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42820&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/42820/Crash%20Bandicoot%20and%20the%20Retro%20Dimension%20Enhanced.zip",
     "SMWCentral Rating": "4.67"
   },
   {
@@ -5301,7 +5301,7 @@
     "SMWC ID": "42884",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42884&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42884/%5BHack%5D%20Daizo%20VS%20MIXTAPE%20v1.02.zip",
-    "SMWCentral Rating": "1.82"
+    "SMWCentral Rating": "1.75"
   },
   {
     "Dropdown Selection": "Dancer to a Discordant System",
@@ -10176,7 +10176,7 @@
     "SMWC ID": "42670",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=42670&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/42670/KaizoBreezev1.1.zip",
-    "SMWCentral Rating": "4.56"
+    "SMWCentral Rating": "4.6"
   },
   {
     "Dropdown Selection": "Kaizo Consistency",
@@ -15155,7 +15155,7 @@
     "SMWC ID": "37928",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=37928&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/37928/MariosPizzaParty.zip",
-    "SMWCentral Rating": "4.54"
+    "SMWCentral Rating": "4.57"
   },
   {
     "Dropdown Selection": "Marios Pizza Party 2",
@@ -16715,7 +16715,7 @@
     "SMWC ID": "43113",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43113&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43113/New%20Super%20Mario%20World%201%20The%20Twelve%20Magic%20Orbs%20POWERED-UP%20v2.0.1.zip",
-    "SMWCentral Rating": "4.71"
+    "SMWCentral Rating": "4.72"
   },
   {
     "Dropdown Selection": "New Super Mario World 2: Around The World",
@@ -21500,19 +21500,6 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=22919&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/22919/TUS%20DEMO%20V0.2.zip",
     "SMWCentral Rating": "4.5"
-  },
-  {
-    "Dropdown Selection": "SMW Translations",
-    "ROM Hack Title": "SMW Translations",
-    "Created By": "Various",
-    "Exits": 96,
-    "Difficulty": "Casual",
-    "Type": "Standard",
-    "Added Date": "2017-06-16",
-    "SMWC ID": "15677",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=15677&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/15677/Translations.zip",
-    "SMWCentral Rating": "4.56"
   },
   {
     "Dropdown Selection": "Smw Uma Aventura Chaotica (Chaotic Adventure)",
@@ -26661,6 +26648,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=15187&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/15187/Super%20Mario%20World.The%20Secret%20Levels.zip",
     "SMWCentral Rating": "4.27"
+  },
+  {
+    "Dropdown Selection": "Super Mario World - Translations",
+    "ROM Hack Title": "Super Mario World - Translations",
+    "Created By": "Various",
+    "Exits": 96,
+    "Difficulty": "Casual",
+    "Type": "Standard",
+    "Added Date": "2017-06-16",
+    "SMWC ID": "15677",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=15677&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/15677/Translations.zip",
+    "SMWCentral Rating": "4.56"
   },
   {
     "Dropdown Selection": "Super Mario World 1.5",
@@ -32796,7 +32796,7 @@
     "SMWC ID": "43436",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43436&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43436/The%20Red%20Island.zip",
-    "SMWCentral Rating": "3"
+    "SMWCentral Rating": "2.75"
   },
   {
     "Dropdown Selection": "The Repetitive Adventure of a Distended Plumber",
