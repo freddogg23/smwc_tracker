@@ -6484,7 +6484,7 @@
     "SMWC ID": "34714",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=34714&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/34714/entropy_v101.zip",
-    "SMWCentral Rating": "4.75"
+    "SMWCentral Rating": "4.7"
   },
   {
     "Dropdown Selection": "EP",
@@ -30717,6 +30717,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41987&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/41987/Tangle%27s%20Trip%20Update.zip",
     "SMWCentral Rating": "3"
+  },
+  {
+    "Dropdown Selection": "Tarot",
+    "ROM Hack Title": "Tarot",
+    "Created By": "Mega",
+    "Exits": 20,
+    "Difficulty": "Master",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-18",
+    "SMWC ID": "43463",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43463&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43463/Tarot.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Tartastrophe: a very sticky hack",
