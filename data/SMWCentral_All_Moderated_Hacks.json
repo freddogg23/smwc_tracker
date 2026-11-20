@@ -1547,6 +1547,19 @@
     "SMWCentral Rating": "3.33"
   },
   {
+    "Dropdown Selection": "Adventure of the Kaizonaut",
+    "ROM Hack Title": "Adventure of the Kaizonaut",
+    "Created By": "SirWetbeard",
+    "Exits": 10,
+    "Difficulty": "Advanced",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-20",
+    "SMWC ID": "43527",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43527&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43527/AOTK.zip",
+    "SMWCentral Rating": "0"
+  },
+  {
     "Dropdown Selection": "Adventure Of The Red Plumber",
     "ROM Hack Title": "Adventure Of The Red Plumber",
     "Created By": "guitar god527",
@@ -2298,7 +2311,7 @@
     "SMWC ID": "37783",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=37783&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/37783/Attempt%20at%20a%20normal%20hack%20v1.11.zip",
-    "SMWCentral Rating": "4.92"
+    "SMWCentral Rating": "4.93"
   },
   {
     "Dropdown Selection": "Autumn",
@@ -3650,7 +3663,7 @@
     "SMWC ID": "6099",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=6099&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/6099/Brutal%20Mario%20Demo%207.zip",
-    "SMWCentral Rating": "4.54"
+    "SMWCentral Rating": "4.55"
   },
   {
     "Dropdown Selection": "Buddy Shell",
@@ -9455,12 +9468,12 @@
     "ROM Hack Title": "Iridium 2",
     "Created By": "1mslakingoff",
     "Exits": 20,
-    "Difficulty": "Expert",
+    "Difficulty": "Advanced",
     "Type": "Kaizo",
-    "Added Date": "2026-09-26",
-    "SMWC ID": "43221",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43221&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43221/Iridium%202.zip",
+    "Added Date": "2026-11-20",
+    "SMWC ID": "43512",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43512&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43512/Iridium%202.zip",
     "SMWCentral Rating": "5"
   },
   {
@@ -9786,7 +9799,7 @@
     "SMWC ID": "43191",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43191&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/43191/Journey%20to%20Kaizo%20v1.1.0.zip",
-    "SMWCentral Rating": "4.7"
+    "SMWCentral Rating": "4.71"
   },
   {
     "Dropdown Selection": "Journey To Peak",
@@ -32803,12 +32816,12 @@
     "ROM Hack Title": "The Red Island",
     "Created By": "sholmes",
     "Exits": 2,
-    "Difficulty": "Intermediate",
+    "Difficulty": "Advanced",
     "Type": "Kaizo",
-    "Added Date": "2026-11-05",
-    "SMWC ID": "43436",
-    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43436&p=section",
-    "Direct Download URL": "https://dl.smwcentral.net/43436/The%20Red%20Island.zip",
+    "Added Date": "2026-11-20",
+    "SMWC ID": "43499",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43499&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43499/The%20Red%20Island.zip",
     "SMWCentral Rating": "2.75"
   },
   {
