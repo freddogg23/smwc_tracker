@@ -2472,7 +2472,7 @@
   {
     "Dropdown Selection": "Backyard Kaizo",
     "ROM Hack Title": "Backyard Kaizo",
-    "Created By": "zynnoir",
+    "Created By": "skynoir",
     "Exits": 3,
     "Difficulty": "Expert",
     "Type": "Kaizo",
@@ -4222,7 +4222,7 @@
     "SMWC ID": "41254",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41254&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/41254/Celery%201.1.zip",
-    "SMWCentral Rating": "4.83"
+    "SMWCentral Rating": "4.86"
   },
   {
     "Dropdown Selection": "Celeste.smc",
@@ -6784,6 +6784,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=21563&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/21563/Exodius%201.1.zip",
     "SMWCentral Rating": "4.5"
+  },
+  {
+    "Dropdown Selection": "Expedition",
+    "ROM Hack Title": "Expedition",
+    "Created By": "seiphsewell24",
+    "Exits": 11,
+    "Difficulty": "Advanced",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-22",
+    "SMWC ID": "43545",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43545&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43545/Expedition.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "Exshellsior",
@@ -12140,6 +12153,19 @@
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=26519&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/26519/Mahogen.zip",
     "SMWCentral Rating": "4.79"
+  },
+  {
+    "Dropdown Selection": "Maker's Mark",
+    "ROM Hack Title": "Maker's Mark",
+    "Created By": "bald_ridge",
+    "Exits": 18,
+    "Difficulty": "Expert",
+    "Type": "Kaizo",
+    "Added Date": "2026-11-23",
+    "SMWC ID": "43522",
+    "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=43522&p=section",
+    "Direct Download URL": "https://dl.smwcentral.net/43522/Makers%20Mark.zip",
+    "SMWCentral Rating": "5"
   },
   {
     "Dropdown Selection": "mancorsa",
@@ -20433,7 +20459,7 @@
     "SMWC ID": "41263",
     "SMWCentral Page URL": "https://www.smwcentral.net/?a=details&id=41263&p=section",
     "Direct Download URL": "https://dl.smwcentral.net/41263/Shell%20Motel.zip",
-    "SMWCentral Rating": "4.89"
+    "SMWCentral Rating": "4.9"
   },
   {
     "Dropdown Selection": "Shell Or Die",
